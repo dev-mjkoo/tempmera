@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045E9BE636FF3D4DBEEAEE8A /* Pods_tempmera_tempmeraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CAF0DA485294B59DFB729 /* Pods_tempmera_tempmeraUITests.framework */; };
+		20FE1BF029005C1F875B3CD9 /* Pods_tempmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE1D6D8AEC857C02EEB54A /* Pods_tempmera.framework */; };
+		80180C0527257FE600EE5C54 /* tempmeraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C0427257FE600EE5C54 /* tempmeraApp.swift */; };
+		80180C0727257FE600EE5C54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C0627257FE600EE5C54 /* ContentView.swift */; };
+		80180C0927257FE900EE5C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180C0827257FE900EE5C54 /* Assets.xcassets */; };
+		80180C0C27257FE900EE5C54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180C0B27257FE900EE5C54 /* Preview Assets.xcassets */; };
+		80180C1627257FE900EE5C54 /* tempmeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C1527257FE900EE5C54 /* tempmeraTests.swift */; };
+		80180C2027257FE900EE5C54 /* tempmeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */; };
+		80180C2227257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */; };
+		E1F0BEBA3C8AB1A572591623 /* Pods_tempmeraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F878A093827D20368F68943B /* Pods_tempmeraTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80180C1227257FE900EE5C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80180BF927257FE600EE5C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80180C0027257FE600EE5C54;
+			remoteInfo = tempmera;
+		};
+		80180C1C27257FE900EE5C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80180BF927257FE600EE5C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80180C0027257FE600EE5C54;
+			remoteInfo = tempmera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FE1D6D8AEC857C02EEB54A /* Pods_tempmera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempmera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6CAF0DA485294B59DFB729 /* Pods_tempmera_tempmeraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempmera_tempmeraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E5182885955C1D405CA8EA /* Pods-tempmeraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmeraTests.debug.xcconfig"; path = "Target Support Files/Pods-tempmeraTests/Pods-tempmeraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5FF5ACDCC8E55E2774FB40 /* Pods-tempmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera.debug.xcconfig"; path = "Target Support Files/Pods-tempmera/Pods-tempmera.debug.xcconfig"; sourceTree = "<group>"; };
+		65F0FA0936300BA0E0EBAB63 /* Pods-tempmera-tempmeraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera-tempmeraUITests.release.xcconfig"; path = "Target Support Files/Pods-tempmera-tempmeraUITests/Pods-tempmera-tempmeraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80180C0127257FE600EE5C54 /* tempmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80180C0427257FE600EE5C54 /* tempmeraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraApp.swift; sourceTree = "<group>"; };
+		80180C0627257FE600EE5C54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80180C0827257FE900EE5C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80180C0B27257FE900EE5C54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80180C1127257FE900EE5C54 /* tempmeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempmeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80180C1527257FE900EE5C54 /* tempmeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraTests.swift; sourceTree = "<group>"; };
+		80180C1B27257FE900EE5C54 /* tempmeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempmeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITests.swift; sourceTree = "<group>"; };
+		80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		844E37E57DC32DD2BCA3FC2F /* Pods-tempmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera.release.xcconfig"; path = "Target Support Files/Pods-tempmera/Pods-tempmera.release.xcconfig"; sourceTree = "<group>"; };
+		F6FF0057072F4C1B360726D9 /* Pods-tempmeraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmeraTests.release.xcconfig"; path = "Target Support Files/Pods-tempmeraTests/Pods-tempmeraTests.release.xcconfig"; sourceTree = "<group>"; };
+		F878A093827D20368F68943B /* Pods_tempmeraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempmeraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAF079F7CAE87CD5C2EB95D /* Pods-tempmera-tempmeraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera-tempmeraUITests.debug.xcconfig"; path = "Target Support Files/Pods-tempmera-tempmeraUITests/Pods-tempmera-tempmeraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80180BFE27257FE600EE5C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FE1BF029005C1F875B3CD9 /* Pods_tempmera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80180C0E27257FE900EE5C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F0BEBA3C8AB1A572591623 /* Pods_tempmeraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80180C1827257FE900EE5C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045E9BE636FF3D4DBEEAEE8A /* Pods_tempmera_tempmeraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		755629DA58E5BED1EA010F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07FE1D6D8AEC857C02EEB54A /* Pods_tempmera.framework */,
+				0F6CAF0DA485294B59DFB729 /* Pods_tempmera_tempmeraUITests.framework */,
+				F878A093827D20368F68943B /* Pods_tempmeraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80180BF827257FE600EE5C54 = {
+			isa = PBXGroup;
+			children = (
+				80180C0327257FE600EE5C54 /* tempmera */,
+				80180C1427257FE900EE5C54 /* tempmeraTests */,
+				80180C1E27257FE900EE5C54 /* tempmeraUITests */,
+				80180C0227257FE600EE5C54 /* Products */,
+				B577273C2F313650583ECD33 /* Pods */,
+				755629DA58E5BED1EA010F9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80180C0227257FE600EE5C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80180C0127257FE600EE5C54 /* tempmera.app */,
+				80180C1127257FE900EE5C54 /* tempmeraTests.xctest */,
+				80180C1B27257FE900EE5C54 /* tempmeraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80180C0327257FE600EE5C54 /* tempmera */ = {
+			isa = PBXGroup;
+			children = (
+				80180C0427257FE600EE5C54 /* tempmeraApp.swift */,
+				80180C0627257FE600EE5C54 /* ContentView.swift */,
+				80180C0827257FE900EE5C54 /* Assets.xcassets */,
+				80180C0A27257FE900EE5C54 /* Preview Content */,
+			);
+			path = tempmera;
+			sourceTree = "<group>";
+		};
+		80180C0A27257FE900EE5C54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80180C0B27257FE900EE5C54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80180C1427257FE900EE5C54 /* tempmeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				80180C1527257FE900EE5C54 /* tempmeraTests.swift */,
+			);
+			path = tempmeraTests;
+			sourceTree = "<group>";
+		};
+		80180C1E27257FE900EE5C54 /* tempmeraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */,
+				80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */,
+			);
+			path = tempmeraUITests;
+			sourceTree = "<group>";
+		};
+		B577273C2F313650583ECD33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A5FF5ACDCC8E55E2774FB40 /* Pods-tempmera.debug.xcconfig */,
+				844E37E57DC32DD2BCA3FC2F /* Pods-tempmera.release.xcconfig */,
+				FBAF079F7CAE87CD5C2EB95D /* Pods-tempmera-tempmeraUITests.debug.xcconfig */,
+				65F0FA0936300BA0E0EBAB63 /* Pods-tempmera-tempmeraUITests.release.xcconfig */,
+				30E5182885955C1D405CA8EA /* Pods-tempmeraTests.debug.xcconfig */,
+				F6FF0057072F4C1B360726D9 /* Pods-tempmeraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80180C0027257FE600EE5C54 /* tempmera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80180C2527257FE900EE5C54 /* Build configuration list for PBXNativeTarget "tempmera" */;
+			buildPhases = (
+				E80560A413F1E0CF2339CA62 /* [CP] Check Pods Manifest.lock */,
+				80180BFD27257FE600EE5C54 /* Sources */,
+				80180BFE27257FE600EE5C54 /* Frameworks */,
+				80180BFF27257FE600EE5C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tempmera;
+			productName = tempmera;
+			productReference = 80180C0127257FE600EE5C54 /* tempmera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80180C1027257FE900EE5C54 /* tempmeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80180C2827257FE900EE5C54 /* Build configuration list for PBXNativeTarget "tempmeraTests" */;
+			buildPhases = (
+				718074CAA2B06B441F3AFF98 /* [CP] Check Pods Manifest.lock */,
+				80180C0D27257FE900EE5C54 /* Sources */,
+				80180C0E27257FE900EE5C54 /* Frameworks */,
+				80180C0F27257FE900EE5C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80180C1327257FE900EE5C54 /* PBXTargetDependency */,
+			);
+			name = tempmeraTests;
+			productName = tempmeraTests;
+			productReference = 80180C1127257FE900EE5C54 /* tempmeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80180C1A27257FE900EE5C54 /* tempmeraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80180C2B27257FE900EE5C54 /* Build configuration list for PBXNativeTarget "tempmeraUITests" */;
+			buildPhases = (
+				913ECF543D462A247BA7B584 /* [CP] Check Pods Manifest.lock */,
+				80180C1727257FE900EE5C54 /* Sources */,
+				80180C1827257FE900EE5C54 /* Frameworks */,
+				80180C1927257FE900EE5C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80180C1D27257FE900EE5C54 /* PBXTargetDependency */,
+			);
+			name = tempmeraUITests;
+			productName = tempmeraUITests;
+			productReference = 80180C1B27257FE900EE5C54 /* tempmeraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80180BF927257FE600EE5C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					80180C0027257FE600EE5C54 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					80180C1027257FE900EE5C54 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 80180C0027257FE600EE5C54;
+					};
+					80180C1A27257FE900EE5C54 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 80180C0027257FE600EE5C54;
+					};
+				};
+			};
+			buildConfigurationList = 80180BFC27257FE600EE5C54 /* Build configuration list for PBXProject "tempmera" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80180BF827257FE600EE5C54;
+			productRefGroup = 80180C0227257FE600EE5C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80180C0027257FE600EE5C54 /* tempmera */,
+				80180C1027257FE900EE5C54 /* tempmeraTests */,
+				80180C1A27257FE900EE5C54 /* tempmeraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80180BFF27257FE600EE5C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80180C0C27257FE900EE5C54 /* Preview Assets.xcassets in Resources */,
+				80180C0927257FE900EE5C54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80180C0F27257FE900EE5C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80180C1927257FE900EE5C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		718074CAA2B06B441F3AFF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempmeraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913ECF543D462A247BA7B584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempmera-tempmeraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E80560A413F1E0CF2339CA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tempmera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80180BFD27257FE600EE5C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80180C0727257FE600EE5C54 /* ContentView.swift in Sources */,
+				80180C0527257FE600EE5C54 /* tempmeraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80180C0D27257FE900EE5C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80180C1627257FE900EE5C54 /* tempmeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80180C1727257FE900EE5C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80180C2227257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift in Sources */,
+				80180C2027257FE900EE5C54 /* tempmeraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80180C1327257FE900EE5C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80180C0027257FE600EE5C54 /* tempmera */;
+			targetProxy = 80180C1227257FE900EE5C54 /* PBXContainerItemProxy */;
+		};
+		80180C1D27257FE900EE5C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80180C0027257FE600EE5C54 /* tempmera */;
+			targetProxy = 80180C1C27257FE900EE5C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80180C2327257FE900EE5C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80180C2427257FE900EE5C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80180C2627257FE900EE5C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5FF5ACDCC8E55E2774FB40 /* Pods-tempmera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tempmera/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.mjkoo.tempmera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80180C2727257FE900EE5C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844E37E57DC32DD2BCA3FC2F /* Pods-tempmera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tempmera/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.mjkoo.tempmera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80180C2927257FE900EE5C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E5182885955C1D405CA8EA /* Pods-tempmeraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZLLG9NWF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.mjkoo.tempmeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tempmera.app/tempmera";
+			};
+			name = Debug;
+		};
+		80180C2A27257FE900EE5C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FF0057072F4C1B360726D9 /* Pods-tempmeraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZLLG9NWF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.mjkoo.tempmeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tempmera.app/tempmera";
+			};
+			name = Release;
+		};
+		80180C2C27257FE900EE5C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAF079F7CAE87CD5C2EB95D /* Pods-tempmera-tempmeraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZLLG9NWF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.mjkoo.tempmeraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tempmera;
+			};
+			name = Debug;
+		};
+		80180C2D27257FE900EE5C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F0FA0936300BA0E0EBAB63 /* Pods-tempmera-tempmeraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZLLG9NWF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.mjkoo.tempmeraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tempmera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80180BFC27257FE600EE5C54 /* Build configuration list for PBXProject "tempmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80180C2327257FE900EE5C54 /* Debug */,
+				80180C2427257FE900EE5C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80180C2527257FE900EE5C54 /* Build configuration list for PBXNativeTarget "tempmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80180C2627257FE900EE5C54 /* Debug */,
+				80180C2727257FE900EE5C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80180C2827257FE900EE5C54 /* Build configuration list for PBXNativeTarget "tempmeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80180C2927257FE900EE5C54 /* Debug */,
+				80180C2A27257FE900EE5C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80180C2B27257FE900EE5C54 /* Build configuration list for PBXNativeTarget "tempmeraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80180C2C27257FE900EE5C54 /* Debug */,
+				80180C2D27257FE900EE5C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80180BF927257FE600EE5C54 /* Project object */;
+}
