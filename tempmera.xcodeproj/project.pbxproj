@@ -52,6 +52,7 @@
 		80180C1B27257FE900EE5C54 /* tempmeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempmeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITests.swift; sourceTree = "<group>"; };
 		80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80180C302725B0F700EE5C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844E37E57DC32DD2BCA3FC2F /* Pods-tempmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera.release.xcconfig"; path = "Target Support Files/Pods-tempmera/Pods-tempmera.release.xcconfig"; sourceTree = "<group>"; };
 		F6FF0057072F4C1B360726D9 /* Pods-tempmeraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmeraTests.release.xcconfig"; path = "Target Support Files/Pods-tempmeraTests/Pods-tempmeraTests.release.xcconfig"; sourceTree = "<group>"; };
 		F878A093827D20368F68943B /* Pods_tempmeraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempmeraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +125,7 @@
 				80180C0427257FE600EE5C54 /* tempmeraApp.swift */,
 				80180C0627257FE600EE5C54 /* ContentView.swift */,
 				80180C0827257FE900EE5C54 /* Assets.xcassets */,
+				80180C302725B0F700EE5C54 /* Info.plist */,
 				80180C0A27257FE900EE5C54 /* Preview Content */,
 			);
 			path = tempmera;
@@ -529,12 +531,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tempmera/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GZLLG9NWF4;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/koominjun/Documents/dev/ios/tempmera/tempmera/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -562,12 +566,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tempmera/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GZLLG9NWF4;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/koominjun/Documents/dev/ios/tempmera/tempmera/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
