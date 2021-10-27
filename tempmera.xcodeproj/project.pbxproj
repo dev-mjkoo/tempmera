@@ -10,12 +10,13 @@
 		045E9BE636FF3D4DBEEAEE8A /* Pods_tempmera_tempmeraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CAF0DA485294B59DFB729 /* Pods_tempmera_tempmeraUITests.framework */; };
 		20FE1BF029005C1F875B3CD9 /* Pods_tempmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE1D6D8AEC857C02EEB54A /* Pods_tempmera.framework */; };
 		80180C0527257FE600EE5C54 /* tempmeraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C0427257FE600EE5C54 /* tempmeraApp.swift */; };
-		80180C0727257FE600EE5C54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C0627257FE600EE5C54 /* ContentView.swift */; };
+		80180C0727257FE600EE5C54 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C0627257FE600EE5C54 /* CameraView.swift */; };
 		80180C0927257FE900EE5C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180C0827257FE900EE5C54 /* Assets.xcassets */; };
 		80180C0C27257FE900EE5C54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180C0B27257FE900EE5C54 /* Preview Assets.xcassets */; };
 		80180C1627257FE900EE5C54 /* tempmeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C1527257FE900EE5C54 /* tempmeraTests.swift */; };
 		80180C2027257FE900EE5C54 /* tempmeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */; };
 		80180C2227257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */; };
+		80180C332726E9AF00EE5C54 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C322726E9AF00EE5C54 /* CameraModel.swift */; };
 		E1F0BEBA3C8AB1A572591623 /* Pods_tempmeraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F878A093827D20368F68943B /* Pods_tempmeraTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,7 @@
 		65F0FA0936300BA0E0EBAB63 /* Pods-tempmera-tempmeraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera-tempmeraUITests.release.xcconfig"; path = "Target Support Files/Pods-tempmera-tempmeraUITests/Pods-tempmera-tempmeraUITests.release.xcconfig"; sourceTree = "<group>"; };
 		80180C0127257FE600EE5C54 /* tempmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80180C0427257FE600EE5C54 /* tempmeraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraApp.swift; sourceTree = "<group>"; };
-		80180C0627257FE600EE5C54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80180C0627257FE600EE5C54 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		80180C0827257FE900EE5C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80180C0B27257FE900EE5C54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80180C1127257FE900EE5C54 /* tempmeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempmeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +54,7 @@
 		80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITests.swift; sourceTree = "<group>"; };
 		80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80180C302725B0F700EE5C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80180C322726E9AF00EE5C54 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
 		844E37E57DC32DD2BCA3FC2F /* Pods-tempmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera.release.xcconfig"; path = "Target Support Files/Pods-tempmera/Pods-tempmera.release.xcconfig"; sourceTree = "<group>"; };
 		F6FF0057072F4C1B360726D9 /* Pods-tempmeraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmeraTests.release.xcconfig"; path = "Target Support Files/Pods-tempmeraTests/Pods-tempmeraTests.release.xcconfig"; sourceTree = "<group>"; };
 		F878A093827D20368F68943B /* Pods_tempmeraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempmeraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				80180C0427257FE600EE5C54 /* tempmeraApp.swift */,
-				80180C0627257FE600EE5C54 /* ContentView.swift */,
+				80180C0627257FE600EE5C54 /* CameraView.swift */,
+				80180C322726E9AF00EE5C54 /* CameraModel.swift */,
 				80180C0827257FE900EE5C54 /* Assets.xcassets */,
 				80180C302725B0F700EE5C54 /* Info.plist */,
 				80180C0A27257FE900EE5C54 /* Preview Content */,
@@ -371,8 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80180C0727257FE600EE5C54 /* ContentView.swift in Sources */,
+				80180C0727257FE600EE5C54 /* CameraView.swift in Sources */,
 				80180C0527257FE600EE5C54 /* tempmeraApp.swift in Sources */,
+				80180C332726E9AF00EE5C54 /* CameraModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
