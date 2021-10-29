@@ -77,6 +77,8 @@ struct CameraView: View {
         
       }
     }
+    .padding(.top, edges?.top ?? 15)
+    .padding(.bottom, edges?.bottom ?? 15)
     .onAppear {
       camera.check()
     }

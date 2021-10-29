@@ -17,6 +17,10 @@
 		80180C2027257FE900EE5C54 /* tempmeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C1F27257FE900EE5C54 /* tempmeraUITests.swift */; };
 		80180C2227257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */; };
 		80180C332726E9AF00EE5C54 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180C322726E9AF00EE5C54 /* CameraModel.swift */; };
+		8018F930272C53D30015A39E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F92F272C53D30015A39E /* HistoryView.swift */; };
+		8018F932272C53E10015A39E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F931272C53E10015A39E /* MainView.swift */; };
+		8018F934272C53EA0015A39E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F933272C53EA0015A39E /* SettingView.swift */; };
+		8018F936272C53F60015A39E /* ScrollableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F935272C53F60015A39E /* ScrollableTabBar.swift */; };
 		E1F0BEBA3C8AB1A572591623 /* Pods_tempmeraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F878A093827D20368F68943B /* Pods_tempmeraTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +59,10 @@
 		80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80180C302725B0F700EE5C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80180C322726E9AF00EE5C54 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		8018F92F272C53D30015A39E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8018F931272C53E10015A39E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8018F933272C53EA0015A39E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		8018F935272C53F60015A39E /* ScrollableTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabBar.swift; sourceTree = "<group>"; };
 		844E37E57DC32DD2BCA3FC2F /* Pods-tempmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmera.release.xcconfig"; path = "Target Support Files/Pods-tempmera/Pods-tempmera.release.xcconfig"; sourceTree = "<group>"; };
 		F6FF0057072F4C1B360726D9 /* Pods-tempmeraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmeraTests.release.xcconfig"; path = "Target Support Files/Pods-tempmeraTests/Pods-tempmeraTests.release.xcconfig"; sourceTree = "<group>"; };
 		F878A093827D20368F68943B /* Pods_tempmeraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempmeraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,8 +132,9 @@
 		80180C0327257FE600EE5C54 /* tempmera */ = {
 			isa = PBXGroup;
 			children = (
+				8018F938272C540B0015A39E /* View */,
+				8018F937272C54000015A39E /* Model */,
 				80180C0427257FE600EE5C54 /* tempmeraApp.swift */,
-				80180C0627257FE600EE5C54 /* CameraView.swift */,
 				80180C322726E9AF00EE5C54 /* CameraModel.swift */,
 				80180C0827257FE900EE5C54 /* Assets.xcassets */,
 				80180C302725B0F700EE5C54 /* Info.plist */,
@@ -157,6 +166,25 @@
 				80180C2127257FE900EE5C54 /* tempmeraUITestsLaunchTests.swift */,
 			);
 			path = tempmeraUITests;
+			sourceTree = "<group>";
+		};
+		8018F937272C54000015A39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8018F938272C540B0015A39E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8018F931272C53E10015A39E /* MainView.swift */,
+				8018F92F272C53D30015A39E /* HistoryView.swift */,
+				80180C0627257FE600EE5C54 /* CameraView.swift */,
+				8018F933272C53EA0015A39E /* SettingView.swift */,
+				8018F935272C53F60015A39E /* ScrollableTabBar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B577273C2F313650583ECD33 /* Pods */ = {
@@ -411,7 +439,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				80180C0727257FE600EE5C54 /* CameraView.swift in Sources */,
+				8018F936272C53F60015A39E /* ScrollableTabBar.swift in Sources */,
+				8018F930272C53D30015A39E /* HistoryView.swift in Sources */,
 				80180C0527257FE600EE5C54 /* tempmeraApp.swift in Sources */,
+				8018F934272C53EA0015A39E /* SettingView.swift in Sources */,
+				8018F932272C53E10015A39E /* MainView.swift in Sources */,
 				80180C332726E9AF00EE5C54 /* CameraModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
