@@ -14,8 +14,8 @@ struct SettingView: View {
       Color.blue
     }
     .frame(maxWidth: .infinity)
-    .padding(.top, edges?.top ?? 15)
-    .padding(.bottom, edges?.bottom ?? 15)
+    //.padding(.top, edges?.top ?? 15)
+    //.padding(.bottom, edges?.bottom ?? 15)
   }
 }
 

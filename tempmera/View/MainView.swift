@@ -27,9 +27,9 @@ struct MainView: View {
           CameraView()
           SettingView()
           
-        }.ignoresSafeArea()
+        }//.ignoresSafeArea()
         
-      }.ignoresSafeArea()
+      }//.ignoresSafeArea()
     }
 }
 

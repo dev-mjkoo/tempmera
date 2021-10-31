@@ -79,6 +79,7 @@ class CameraModel: NSObject, AVCapturePhotoCaptureDelegate, ObservableObject {
   func takePic() {
     DispatchQueue.global(qos: .background).async {
       self.output.capturePhoto(with: AVCapturePhotoSettings(), delegate: self)
+      
       DispatchQueue.main.async {
         Timer.scheduledTimer(withTimeInterval: 0.05, repeats: false) { (timer) in
           self.session.stopRunning()
@@ -88,6 +89,7 @@ class CameraModel: NSObject, AVCapturePhotoCaptureDelegate, ObservableObject {
       DispatchQueue.main.async {
         withAnimation{ self.isTaken.toggle() }
       }
+      
     }
   }
   
@@ -113,13 +115,29 @@ class CameraModel: NSObject, AVCapturePhotoCaptureDelegate, ObservableObject {
     print("pic taken...")
     
     guard let imageData = photo.fileDataRepresentation() else { return }
-    
     self.picData = imageData
+    let image = UIImage(data: self.picData)!
+    
+    /* 앨범에 저장 X */
+    //self.savePic(image: image)
+
+    let imageName = "\(ProcessInfo.processInfo.globallyUniqueString).jpeg"
+    print("imageName : \(imageName)")
+    
+    /* 이미지 정보 저장 */
+    let myDB = DBManager.shared
+    myDB.insertData(imageData: ImageData(imageName))
+    
+    /* 이미지 저장 */
+    ImageFileManager.shared.saveImage(image: image, name: imageName) { status in
+      print("이미지를 로컬에 저장 완료")
+    }
+    
+    self.reTake()
   }
   
   
-  func savePic() {
-    let image = UIImage(data: self.picData)!
+  func savePic(image: UIImage) {
     
     // saving Image...
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
